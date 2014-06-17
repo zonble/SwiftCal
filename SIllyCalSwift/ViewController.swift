@@ -34,7 +34,7 @@ class ViewController: UIViewController {
 			self.textLabel.text = ""
 			resetTextLabelOnNextAppending = false
 		}
-		if s === "." {
+		if s == "." {
 			if !contains(self.textLabel.text as String, ".") {
 				self.textLabel.text = self.textLabel.text + "."
 			}
